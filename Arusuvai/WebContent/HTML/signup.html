@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/signup.css">
+<title>SignUp</title>
+</head>
+<body>
+<div class="background"></div>
+<div class="signup-container">
+<form class="signup">
+<h2>SignUp</h2>
+<input type="text" id="name" placeholder=" Name" required>
+<span id="nameerror"></span>
+<input type="text" id="username" placeholder=" Username" required>
+<span id="usernameerror"></span>
+<input type="email" id="gmail" placeholder=" Email Address" required>
+<span id="emailerror"></span>
+<input type="text" id="mobilenumber" placeholder=" Mobile Number" required>
+<span id="mobilenumbererror"></span>
+<input type="password" id="password" placeholder=" Password" required>
+<span id="passworderror"></span>
+<input type="password" id="repassword" placeholder=" Re-Enter Password" required>
+<span id="reenterpassworderror"></span>
+
+<div id="otp">
+</div>
+
+<button type="submit" id="signupbtn" onclick="return validate()">Signup</button>
+
+
+</form>
+</div>
+<script src="../Scripts/signup.js"></script>
+</body>
+</html>
